@@ -1,15 +1,18 @@
 
 .center{
   text-align: center;
+  position: relative;
 }
 
 button{
   display: block;
   margin-top: 5px;
-  margin-left: 698px;
   border: 1px solid skyblue;
   background-color: rgba(0,0,0,0);
   color: skyblue;
+  position: absolute;
+  top: 103px;
+  left: 308px;
 }
 
 button:hover{
@@ -17,7 +20,7 @@ button:hover{
 }
 
 .textbox{
-  width: 600px;
+  width: 300px;
   height: 100px;
   border: 1px solid #000000;
   border-radius: 10px;
