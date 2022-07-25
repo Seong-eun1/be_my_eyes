@@ -1,5 +1,5 @@
 function call() {
-text.value = "우리 일조가 우승할거야";
+text.value = "원음을 생생하게 살리는 메리디안 사운드의 톤프리";
 
 speak(text.value, { rate: 1,
              pitch: 1.2,
