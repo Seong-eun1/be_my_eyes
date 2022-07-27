@@ -3,7 +3,7 @@ const text = document.getElementById("text")
 const btnRead = document.getElementById("btn-read")
 
 document.addEventListener("DOMContentLoaded",function(){
-  text.value = ''함께라는 마법' 코카콜라,\n본 제품은 코카콜라 오리지널이며, 1300원에 판매되고 있습니다.\n현재 원 플러스 원 이벤트를 진행 중이며, 유통기한은 7월 31일까지입니다.'\n8월 달엔 여름 캠페인 이벤트가 진행되니 기대해주세요.;
+  text.value = '함께라는 마법 코카콜라,\n본 제품은 코카콜라 오리지널이며, 1300원에 판매되고 있습니다.\n현재 원 플러스 원 이벤트를 진행 중이며, 유통기한은 7월 31일까지입니다.'\n8월 달엔 여름 캠페인 이벤트가 진행되니 기대해주세요.;
 
   btn_click();
 
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded",function(){
 })
 
 function call() {
-  text.value = ''함께라는 마법' 코카콜라,\n본 제품은 코카콜라 오리지널이며, 1300원에 판매되고 있습니다.\n현재 원 플러스 원 이벤트를 진행 중이며, 유통기한은 7월 31일까지입니다.'\n8월 달엔 여름 캠페인 이벤트가 진행되니 기대해주세요.';
+  text.value = '함께라는 마법 코카콜라,\n본 제품은 코카콜라 오리지널이며, 1300원에 판매되고 있습니다.\n현재 원 플러스 원 이벤트를 진행 중이며, 유통기한은 7월 31일까지입니다.'\n8월 달엔 여름 캠페인 이벤트가 진행되니 기대해주세요.';
 
   speak(text.value, {
       rate: 1,
